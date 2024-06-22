@@ -49,7 +49,7 @@ numbers = [1, 2, 3, 4, 5, 6]
 
 # Create a new list by multiplying each number in the original list by 2
 # Using a list comprehension
-
+#
 # The list comprehension syntax is as follows:
 # [expression for item in iterable]
 # Where expression is the operation to be applied to each item
@@ -58,8 +58,14 @@ numbers = [1, 2, 3, 4, 5, 6]
 # And the iterable is the list of numbers
 
 # The resulting list is assigned to the variable double_numbers
+# Each item in the list of numbers is multiplied by 2, and the result is stored in a new list
 double_numbers = [x * 2 for x in numbers]
 
 # Print the double_numbers list
 # This will print the list of numbers in the original list, multiplied by 2
 print(double_numbers)
+
+# Print the id of the original list and the new list
+# The id function returns a unique identifier for the object, which in this case is the memory address of the list
+# This is useful for debugging and understanding how the list is stored in memory
+print("numbers: ", id(numbers), "doubles: ", id(double_numbers))

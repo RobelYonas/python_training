@@ -42,3 +42,24 @@ repeating_Number = int(input("How many times to repeat your name: "))  # Prompts
 # The f-string is used to format the output with the user's name
 for i in range(repeating_Number):
     print(f"{users_name}")  # Prints the user's name the specified number of times
+
+
+# A list of numbers
+numbers = [1, 2, 3, 4, 5, 6]
+
+# Create a new list by multiplying each number in the original list by 2
+# Using a list comprehension
+
+# The list comprehension syntax is as follows:
+# [expression for item in iterable]
+# Where expression is the operation to be applied to each item
+# iterable is the list of items to iterate over
+# Here, the operation is multiplying each item by 2
+# And the iterable is the list of numbers
+
+# The resulting list is assigned to the variable double_numbers
+double_numbers = [x * 2 for x in numbers]
+
+# Print the double_numbers list
+# This will print the list of numbers in the original list, multiplied by 2
+print(double_numbers)

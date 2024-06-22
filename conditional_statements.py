@@ -24,3 +24,21 @@ elif day_of_week == "monday":
 else:
     # Print a message indicating that the input is a valid day of the week
     print(f"{day_of_week} is a valid day of the week.")
+
+
+# Set of movie titles
+movie_titles = {"Matrix", "Cars 2", "Cat vs Dog"}
+
+# Prompt the user to enter a movie title and convert the input to title case
+# The title method changes the first character of each word to uppercase
+user_input = input("Enter the movie title you watched: ").title()
+
+# Check if the user's input is in the set of movie titles
+# The in keyword checks if a sequence (list, tuple, string, set) contains a value
+if user_input in movie_titles:
+    # Print a message indicating that the movie has been watched
+    print(f"We have watched the movie {user_input}")
+else:
+    # Print a message indicating that the user's taste is quite unique
+    print("Your taste is quite unique.")
+    

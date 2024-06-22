@@ -69,10 +69,6 @@ The primary purpose of this repository is to:
 
 While this project is a personal learning journey, I welcome any suggestions or improvements. If you have any tips, corrections, or additional resources that could enhance my learning experience, please feel free to reach out or create a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
 ---
 
 Thank you for visiting my Python Learning Journey! I hope you find my progress and examples helpful. Feel free to explore the repository and follow along with my learning adventure.
